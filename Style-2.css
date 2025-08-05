@@ -1,0 +1,94 @@
+html
+{
+    font-size: 15px; /* Default*/
+    font-family: monospace;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pakka
+{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+    width: 110px; /* 80 px*/
+    height: 75px;  /*55 px*/
+
+    box-shadow: 1px 1px 5px black;
+    margin: auto;
+}
+#dealer
+{
+    text-align: center;
+}
+#player
+{
+    text-align: center;
+}
+.card_slot
+{
+    height: fit-content;
+    min-height: 111px; /* 86 px*/
+    width: fit-content;
+    min-width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 0px;
+}
+.card
+{
+    height: 110px; /* 80 px*/
+    width: 75px; /* 55 px*/
+    margin: 0px 2px !important;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: inline-block;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#buttons
+{
+    text-align: center;
+}
+#buttons button
+{
+    font-family: inherit;
+    margin: 5px;
+    height: 2em; /* 1.5 em*/
+    width: 70px; /*50px*/
+
+    border-radius: 2px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+#dealer_div, #player_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result
+{
+    text-align: center;
+}
+#players_cards, #dealers_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

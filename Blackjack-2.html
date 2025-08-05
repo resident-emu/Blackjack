@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="icon" type="image/x-icon" href="ace.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Style-2.css"></link>
+</head>
+<body>
+    <div id="dealer_div">
+        <p id="dealer">Dealer</p>
+        <div class="card_slot" id="dealers_cards">
+            <div class="card" id="dealer_card1">Card</div>
+            <div class="card" id="dealer_card2">Card</div>
+        </div>
+    </div>  
+    <div id="pakka">52</div>
+    <div id="player_div">
+        <div class="card_slot" id="players_cards">
+            <div class="card" id="card1">Card</div>
+            <div class="card" id="card2">Card</div>
+        </div>
+    <p id="player">Player</p>
+    </div>
+
+    <div id="buttons">
+        <button id="hit">Hit</button>
+        <button id="deal">Deal</button>
+        <button id="stand">Stand</button>
+    </div>
+    <div>
+        <p class="result" id="result">---</p>
+        <p class="result" id="score">0 : 0</p>
+    </div>
+    <script type="text/javascript" src="Script-2.js"></script>
+</body>
+</html>
